@@ -5,42 +5,55 @@ export default function Home() {
     <>
      <div className="relative w-full">
   {/* HERO SECTION */}
-  <div className="relative min-h-[60vh] md:min-h-[70vh] w-full">
+  <div className="relative w-full">
+  {/* HERO SECTION */}
+  <section className="relative w-full h-[60vh] md:h-[70vh] overflow-hidden">
+    
+    {/* Background Image */}
     <img
-      className="w-full h-[60vh] md:h-[70vh] object-cover opacity-80"
       src="/background(s).jpeg"
       alt="Background"
+      className="absolute inset-0 w-full h-full object-cover  object-center"
     />
 
+    {/* Dark Overlay */}
+    <div className="absolute inset-0 bg-black/40"></div>
+
     {/* Hero Content */}
-    <div className="absolute top-35  md:top-20 left-4 md:left-8 w-[90%] md:w-2/3">
-      <div className="text-2xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
-        DRIVING TRUE DEVELOPMENT THROUGH SUSTAINABLE OWNERSHIP.
-      </div>
+    <div className="absolute inset-0 flex items-center">
+      <div className="px-4 md:px-8 w-[95%] md:w-2/3 z-10"> 
+        
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
+          DRIVING TRUE DEVELOPMENT THROUGH SUSTAINABLE OWNERSHIP.
+        </h1>
 
-      <div className="mt-4 text-sm sm:text-base md:text-lg text-gray-200">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas sunt
-        maiores dicta nemo tempore ullam debitis veniam deserunt, culpa, at
-        velit sint aperiam quaerat aut nihil non, assumenda libero dolorum.
-        Repellendus.
-      </div>
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-200">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sunt
+          maiores dicta nemo tempore ullam debitis veniam deserunt, culpa at
+          velit sint aperiam quaerat aut nihil non assumenda libero dolorum.
+          Repellendus.
+        </p>
 
-      {/* Buttons */}
-      <div className="mt-8 flex flex-col sm:flex-row gap-4">
-        <Link href="#explore-work">
-          <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-black">
-            EXPLORE OUR WORK
-          </button>
-        </Link>
+        {/* Buttons */}
+        <div className="mt-8 flex flex-col sm:flex-row gap-4">
+          <Link href="#explore-work">
+            <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300">
+              EXPLORE OUR WORK
+            </button>
+          </Link>
 
-        <Link href="#footprint">
-          <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-black">
-            PARTNER WITH US
-          </button>
-        </Link>
+          <Link href="#footprint">
+            <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300">
+              PARTNER WITH US
+            </button>
+          </Link>
+        </div>
+
       </div>
     </div>
-  </div>
+
+  </section>
+</div>
 
 {/* TRUST & CREDIBILITY SECTION */}
 <div

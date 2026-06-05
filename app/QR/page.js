@@ -5,7 +5,11 @@ const page = () => {
     <>
 
     <div className='text-black'>
-        <img className=" object-cover w-full h-[350] " src="https://c10.patreonusercontent.com/4/patreon-media/p/campaign/4842667/452146dcfeb04f38853368f554aadde1/eyJ3IjoxOTIwLCJ3ZSI6MX0%3D/20.gif?token-hash=f_0zmyi9EgukDY-tDcfYi7hD-zWZaXdxGqbqAxYUAxw%3D&token-time=1780531200" alt="" elementtiming="Creator Public Page : Base Page" data-is-key-element="true"></img>
+        <img
+  className="w-full h-[250px] sm:h-[350px] md:h-[450px] object-cover"
+  src="/background2(S).jpeg"
+  alt="Smadona Foundation Rural Community Project"
+/>
            
 
         
