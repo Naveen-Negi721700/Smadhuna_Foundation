@@ -182,13 +182,7 @@ export default function SmadonaImpactSection() {
           </div>
         </div>
 
-        {/* Bottom CTA */}
-        <div className="mt-12 text-center">
-          <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-1/3 rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
-        
-            Support Smadona Foundation
-            </button>
-        </div>
+       
       </section>
     </div>
   );

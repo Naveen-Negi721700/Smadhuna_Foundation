@@ -3,146 +3,272 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="relative  h-[93vh] w-full">
+     <div className="relative w-full">
+  {/* HERO SECTION */}
+  <div className="relative min-h-[60vh] md:min-h-[70vh] w-full">
+    <img
+      className="w-full h-[60vh] md:h-[70vh] object-cover opacity-80"
+      src="/background(s).jpeg"
+      alt="Background"
+    />
+
+    {/* Hero Content */}
+    <div className="absolute top-35  md:top-20 left-4 md:left-8 w-[90%] md:w-2/3">
+      <div className="text-2xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
+        DRIVING TRUE DEVELOPMENT THROUGH SUSTAINABLE OWNERSHIP.
+      </div>
+
+      <div className="mt-4 text-sm sm:text-base md:text-lg text-gray-200">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas sunt
+        maiores dicta nemo tempore ullam debitis veniam deserunt, culpa, at
+        velit sint aperiam quaerat aut nihil non, assumenda libero dolorum.
+        Repellendus.
+      </div>
+
+      {/* Buttons */}
+      <div className="mt-8 flex flex-col sm:flex-row gap-4">
+        <Link href="#explore-work">
+          <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-black">
+            EXPLORE OUR WORK
+          </button>
+        </Link>
+
+        <Link href="#footprint">
+          <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-black">
+            PARTNER WITH US
+          </button>
+        </Link>
+      </div>
+    </div>
+  </div>
+
+{/* TRUST & CREDIBILITY SECTION */}
+<div
+  id="footprint"
+  className="bg-gray-200 text-center py-10 px-4"
+>
+  <h2 className="text-2xl sm:text-3xl md:text-4xl text-green-800 font-bold">
+    TRUST & CREDIBILITY STRIP
+  </h2>
+
+  <p className="text-black text-base md:text-xl mt-2">
+    Our Collaborative Footprint
+  </p>
+
+  {/* Horizontal Scroll Container */}
+  <div className="mt-8 overflow-x-auto hide-scrollbar pb-4">
+    <div className="flex  gap-8 w-max px-2">
+   
+
+      {/* Partner 1 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
         <img
-          className="w-full h-[60vh] object-cover opacity-80 "
-          src="/background(s).jpeg"
-          alt="Background"
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://ennoble.in/wp-content/uploads/2021/07/ennoble-logo-1024x240.png"
+          alt="Ennoble Logo"
         />
-        <div className="absolute top-20 left-8 w-2/3">
-          <div className="text-5xl font-bold  text-white ">
-            DRIVING TRUE DEVELOPEMENT THROUGHTH SUSTAINABLE OWNERSHIP .
-          </div>
-          <div className="mt-4 text-lg text-gray-200">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas sunt maiores dicta nemo tempore ullam debitis veniam deserunt, culpa, at velit sint aperiam quaerat aut nihil non, assumenda libero dolorum. Repellendus.
-          </div>
-
-          <div className="mt-8 mx-2 mb-2 flex gap-4">
-
-            <Link href={"#explore-work"}>
-              <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
-                EXPLORE OUR WORK
-              </button>
-            </Link>
-
-            <Link href={"#footprint"}>
-              <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-black">
-                PARTNER WITH US
-              </button>
-            </Link>
-          </div>
-
-        </div>
-
-
-
-
-        <div id="footprint" className="absolute  left-0 right-0 h-[30vh] bg-gray-200 text-white text-center py-4">
-          <h2 className="text-4xl text-green-800 font-bold">TRUST & CREDIBILITY STRIP</h2>
-          <p className="text-black text-xl">Our Collaborative Footprint</p>
-          <div className="flex gap-3 mx-6  ">
-            <div className="w-1/2 h-[20vh]  text-black flex flex-col justify-center items-center">
-              <img className="w-1/3 h-1/3 "
-                src="https://ennoble.in/wp-content/uploads/2021/07/ennoble-logo-1024x240.png"
-                alt="Ennoble Logo"
-
-              />
-              <div className="text-xl"> Ennoble Social Innovation  Foundation</div>
-            </div>
-            <div className="w-1/2 h-[20vh]  text-black flex flex-col justify-center items-center">
-              <img className="w-1/2 h-1/2 " src="https://th.bing.com/th/id/OIP.01o34mmB5153kNrYH5M7sAAAAA?w=108&h=108&c=1&bgcl=aa765e&r=0&o=7&dpr=1.3&pid=ImgRC&rm=3" alt="" />
-              <div className="text-xl"> Hilmil Foundation</div>
-            </div>
-            <div className="w-1/2 h-[20vh]  text-black flex flex-col justify-center items-center">
-              <img className="w-1/2 h-1/2 " src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png" alt="" />
-              <div className="text-xl"> GGUS Foundation</div>
-            </div>
-            <div className="w-1/2 h-[20vh]  text-black flex flex-col justify-center items-center">
-              <img className="w-1/2 h-1/2 " src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png" alt="" />
-              <div className="text-xl"> Ulhasnagar Muncipal Corporation</div>
-            </div>
-            <div className="w-1/2 h-[20vh]  text-black flex flex-col justify-center items-center">
-              <img className="w-1/2 h-1/2 " src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png" alt="" />
-              <div className="text-xl"> Takshashila Vidyalaya</div>
-            </div>
-          </div>
-        </div>
-
-
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Ennoble Social Innovation Foundation
+        </p>
       </div>
 
-
-
-
-
-      <div id="explore-work" className="w-full min-h-[50vh]  text-white text-center py-4">
-        <h2 className="text-4xl text-green-800 font-bold">WHAT WE DO</h2>
-        <p className="text-white text-xl">The 4 Pillars Infographic</p>
-
-        <div className="flex gap-4 mx-6 mt-4">
-
-          <div className="flex-1 min-h-[30vh] rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
-            <img src="https://static.vecteezy.com/system/resources/previews/028/964/974/non_2x/education-beautiful-close-up-image-ai-generated-free-photo.jpg"
-              alt="Education & Skill"
-            />
-            <div className="text-2xl font-bold text-[#0b3d26] text-center">
-              EDUCATION & SKILL
-            </div>
-            <ul className="text-left mt-2 text-lg text-black">
-              <li>Teacher Training</li>
-              <li>Skills Development</li>
-              <li>Financial Literacy</li>
-            </ul>
-          </div>
-
-          <div className="flex-1 min-h-[30vh] rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
-            <img
-              className=" h-60 mt-2 object-cover"
-              src="https://tse3.mm.bing.net/th/id/OIP._LU91X-nrXie5i9ly03vOAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3https://tse3.mm.bing.net/th/id/OIP._LU91X-nrXie5i9ly03vOAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
-              alt="Healthcare"
-            />
-            <div className="text-2xl font-bold text-[#0b3d26] text-center">
-              HEALTHCARE
-            </div>
-            <ul className="text-left mt-2 text-lg text-black">
-              <li>Medical Health Camps</li>
-              <li>Health Awareness Programs</li>
-            </ul>
-          </div>
-
-          <div className="flex-1 min-h-[30vh] rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
-            <img
-              className=" h-60 mt-2 object-cover"
-              src="https://th.bing.com/th/id/OIP.ow7Kx770-hvunLFNTWDVVwHaE9?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
-              alt="Rural Development"
-            />
-            <div className="text-2xl font-bold text-[#0b3d26] text-center">
-              RURAL DEVELOPMENT
-            </div>
-            <ul className="text-left mt-2 text-lg text-black">
-              <li>Supporting Youth</li>
-              <li>Empowering Villages</li>
-            </ul>
-          </div>
-
-          <div className="flex-1 min-h-[30vh] rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
-            <img
-              className="h-60 mt-2 object-cover"
-              src="https://tse3.mm.bing.net/th/id/OIP.KA_5GS4u4-llmpYF_zOl0QHaHX?rs=1&pid=ImgDetMain&o=7&rm=3"
-              alt="Environment & Wash"
-            />
-            <div className="text-2xl font-bold text-[#0b3d26] text-center">
-              ENVIRONMENT & WASH
-            </div>
-            <ul className="text-left mt-2 text-lg text-black">
-              <li>Smart Waste Management</li>
-              <li>Clean Water Access</li>
-            </ul>
-          </div>
-
-        </div>
+      {/* Partner 2 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://th.bing.com/th/id/OIP.01o34mmB5153kNrYH5M7sAAAAA?w=108&h=108&c=1&bgcl=aa765e&r=0&o=7&dpr=1.3&pid=ImgRC&rm=3"
+          alt="Hilmil Foundation"
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Hilmil Foundation
+        </p>
       </div>
 
+      {/* Partner 3 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
+          alt="GGUS Foundation"
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          GGUS Foundation
+        </p>
+      </div>
+
+      {/* Partner 4 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
+          alt="Ulhasnagar Municipal Corporation"
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Ulhasnagar Municipal Corporation
+        </p>
+      </div>
+
+      {/* Partner 5 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
+          alt="Takshashila Vidyalaya"
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Takshashila Vidyalaya
+        </p>
+      </div>
+
+      {/* Partner 6 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
+          alt="Partner 6"
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Partner 6
+        </p>
+      </div>
+
+      {/* Partner 7 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
+          alt="Partner 7"
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Partner 7
+        </p>
+      </div>
+
+      {/* Partner 8 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
+          alt="Partner 8"
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Partner 8
+        </p>
+      </div>
+
+      {/* Partner 9 */}
+      <div className="min-w-[200px] flex flex-col items-center flex-shrink-0">
+        <img
+          className="w-24 h-24 md:w-32 md:h-32 object-contain"
+          src="https://cdn.pixabay.com/photo/2016/12/27/13/10/logo-1933884_1280.png"
+          alt="Partner 9  "
+        />
+        <p className="text-sm md:text-lg text-center mt-3 text-black">
+          Partner 9
+        </p>
+      </div>
+
+    </div>
+
+  
+  </div>
+</div>
+</div>
+
+
+
+
+
+     <div
+  id="explore-work"
+  className="w-full min-h-[50vh] text-center py-6 px-4"
+>
+  <h2 className="text-3xl md:text-4xl text-green-800 font-bold">
+    WHAT WE DO
+  </h2>
+
+  <p className="text-gray-600 text-base md:text-xl mt-2">
+    The 4 Pillars Infographic
+  </p>
+
+  {/* Responsive Grid */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mx-auto mt-8 max-w-7xl">
+
+    {/* EDUCATION & SKILL */}
+    <div className="rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
+      <img
+        className="w-full h-48 sm:h-56 md:h-60 object-cover rounded-xl"
+        src="https://static.vecteezy.com/system/resources/previews/028/963/463/non_2x/education-beautiful-close-up-image-ai-generated-free-photo.jpg"
+        alt="Education & Skill"
+      />
+
+      <div className="text-xl md:text-2xl font-bold text-[#0b3d26] text-center mt-4">
+        EDUCATION & SKILL
+      </div>
+
+      <ul className="text-left mt-3 text-base md:text-lg text-black space-y-1">
+        <li>• Teacher Training</li>
+        <li>• Skills Development</li>
+        <li>• Financial Literacy</li>
+      </ul>
+    </div>
+
+    {/* HEALTHCARE */}
+    <div className="rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
+      <img
+        className="w-full h-48 sm:h-56 md:h-60 object-cover rounded-xl"
+        src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800"
+        alt="Healthcare"
+      />
+
+      <div className="text-xl md:text-2xl font-bold text-[#0b3d26] text-center mt-4">
+        HEALTHCARE
+      </div>
+
+      <ul className="text-left mt-3 text-base md:text-lg text-black space-y-1">
+        <li>• Medical Health Camps</li>
+        <li>• Health Awareness Programs</li>
+      </ul>
+    </div>
+
+    {/* RURAL DEVELOPMENT */}
+    <div className="rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
+      <img
+        className="w-full h-48 sm:h-56 md:h-60 object-cover rounded-xl"
+        src="https://th.bing.com/th/id/OIP.ow7Kx770-hvunLFNTWDVVwHaE9?rs=1&pid=ImgDetMain"
+        alt="Rural Development"
+      />
+
+      <div className="text-xl md:text-2xl font-bold text-[#0b3d26] text-center mt-4">
+        RURAL DEVELOPMENT
+      </div>
+
+      <ul className="text-left mt-3 text-base md:text-lg text-black space-y-1">
+        <li>• Supporting Youth</li>
+        <li>• Empowering Villages</li>
+      </ul>
+    </div>
+
+    {/* ENVIRONMENT & WASH */}
+    <div className="rounded-3xl bg-gray-200 text-black flex flex-col items-center p-4 shadow-lg hover:scale-105 duration-300">
+      <img
+        className="w-full h-48 sm:h-56 md:h-60 object-cover rounded-xl"
+        src="https://tse3.mm.bing.net/th/id/OIP.KA_5GS4u4-llmpYF_zOl0QHaHX?rs=1&pid=ImgDetMain"
+        alt="Environment & Wash"
+      />
+
+      <div className="text-xl md:text-2xl font-bold text-[#0b3d26] text-center mt-4">
+        ENVIRONMENT & WASH
+      </div>
+
+      <ul className="text-left mt-3 text-base md:text-lg text-black space-y-1">
+        <li>• Smart Waste Management</li>
+        <li>• Clean Water Access</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
 
 
 
