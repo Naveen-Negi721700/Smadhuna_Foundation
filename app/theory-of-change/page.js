@@ -141,16 +141,7 @@ const Page = () => {
         </div>
       </main>
 
-      {/* Buttons */}
-      <footer className="mt-16 flex flex-wrap gap-6">
-        <button className="px-8 py-4 bg-yellow-700 hover:bg-yellow-800 rounded-xl font-semibold text-lg transition">
-          Explore Our Work
-        </button>
-
-        <button className="px-8 py-4 border-2 border-white hover:bg-white/10 rounded-xl font-semibold text-lg transition">
-          Partner With Us
-        </button>
-      </footer>
+   
     </div>
   );
 };

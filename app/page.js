@@ -419,7 +419,7 @@ export default function Home() {
           {/* Card 1 */}
           <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg p-6 mb-6">
             <div className="md:w-1/5 h-80 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-              <img className="h-[40vh] w-[30vh] object-cover" src="/books(s).jpeg" alt="water" />
+              <img className="h-[37vh] md:h-[40vh] w-[30vh] object-cover " src="/books(s).jpeg" alt="water" />
             </div>
 
             <div className="md:w-2/3 md:pl-8 mt-4 md:mt-0 flex flex-col justify-between">
@@ -475,17 +475,18 @@ export default function Home() {
                   Mumbai
                 </p>
               </div>
-
+ <Link href="/impact">
               <button className="px-6 py-3  text-base sm:text-lg md:text-xl w-full lg:w-1/4 rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-black">
                 Learn More
               </button>
+              </Link>
             </div>
           </div>
 
           {/* Card 2 */}
           <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg p-6">
             <div className="md:w-1/5 h-80 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-              <img className="h-[40vh] w-[30vh] object-cover" src="/water2(s).jpeg" alt="water" />
+              <img className="h-[37vh] md:h-[40vh] w-[30vh] object-cover" src="/water2(s).jpeg" alt="water" />
             </div>
 
             <div className="md:w-2/3 md:pl-8 mt-4 md:mt-0 flex flex-col justify-between">
@@ -542,9 +543,11 @@ export default function Home() {
                 </p>
               </div>
 
+                  <Link href="/impact">
               <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full lg:w-1/4  rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-black">
                 Learn More
               </button>
+</Link>
             </div>
           </div>
 

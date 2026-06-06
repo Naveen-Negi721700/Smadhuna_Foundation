@@ -35,7 +35,7 @@ const page = () => {
 
       const data = await response.json();
 
-console.log(data);
+
 
 if (!response.ok) {
   alert(data.error || "Server Error");
@@ -259,7 +259,7 @@ router.push("/QR");
     <div className="flex justify-center pt-2">
      <button
   type="submit"
-  onClick={() => alert("Button Clicked")}
+  onClick={() => alert("Your detail is being processed.")}
   className="w-full md:w-1/2 rounded-2xl bg-gradient-to-r from-[#0b3d26] to-[#1c905a] px-6 py-4 text-lg font-bold text-white"
 >
   Continue →
