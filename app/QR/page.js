@@ -5,6 +5,7 @@ const page = () => {
     <>
 
     <div className='text-black'>
+
         <img
   className="w-full h-[250px] sm:h-[350px] md:h-[450px] object-cover"
   src="/background2(S).jpeg"
