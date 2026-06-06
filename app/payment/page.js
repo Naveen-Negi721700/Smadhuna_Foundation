@@ -66,25 +66,6 @@ const page = () => {
           <h1 className="text-white text-3xl mb-4 sm:text-4xl lg:text-6xl font-bold text-center">
             Your Details
           </h1>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div className="w-full max-w-7xl bg-white rounded-[40px] shadow-[0_20px_60px_rgba(0,0,0,0.15)] p-6 md:p-10 grid grid-cols-1 lg:grid-cols-2 gap-10">
 
   {/* LEFT SIDE */}
