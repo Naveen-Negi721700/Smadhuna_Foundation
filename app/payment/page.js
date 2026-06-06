@@ -252,12 +252,13 @@ const page = () => {
 
     {/* Button */}
     <div className="flex justify-center pt-2">
-      <button
-        type="submit"
-        className="w-full md:w-1/2 rounded-2xl bg-gradient-to-r from-[#0b3d26] to-[#1c905a] px-6 py-4 text-lg font-bold text-white transition-all duration-300 hover:scale-105"
-      >
-        Continue →
-      </button>
+     <button
+  type="submit"
+  onClick={() => alert("Button Clicked")}
+  className="w-full md:w-1/2 rounded-2xl bg-gradient-to-r from-[#0b3d26] to-[#1c905a] px-6 py-4 text-lg font-bold text-white"
+>
+  Continue →
+</button>
     </div>
 
   </form>
