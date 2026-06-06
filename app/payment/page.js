@@ -35,19 +35,24 @@ const page = () => {
 
       const data = await response.json();
 
-      if (data.success) {
-        alert("Data saved successfully!");
+console.log(data);
 
-        setForm({
-          name: "",
-          email: "",
-          contact: "",
-          donation_section: "",
-          message: "",
-        });
+if (!response.ok) {
+  alert(data.error || "Server Error");
+  return;
+}
 
-        router.push("/QR");
-      }
+alert("Data saved successfully!");
+
+setForm({
+  name: "",
+  email: "",
+  contact: "",
+  donation_section: "",
+  message: "",
+});
+
+router.push("/QR");
     } catch (error) {
       console.log(error);
       alert("Something went wrong");
