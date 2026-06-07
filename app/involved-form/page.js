@@ -43,7 +43,7 @@ const Page = () => {
           contact: "",
           donation_section: "",
           message: "",
-        });
+        });   
       } else {
         alert("Failed to submit form");
       }

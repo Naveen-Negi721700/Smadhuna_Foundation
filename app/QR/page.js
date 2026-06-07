@@ -31,7 +31,7 @@ const page = () => {
             <div className="flex flex-col min-h-40">
               <p className="text-lg mb-4">
                 <span className="font-bold text-2xl">
-                  {name ? `${name}, your` : "Your"}
+                  {name ? `${name}, your` : "Your"}  
                 </span>{" "}
                 contribution supports sustainable development through our key focus areas —
                 Water Access, Renewable Energy, Education Access, Agri-Livelihoods and General Fund.

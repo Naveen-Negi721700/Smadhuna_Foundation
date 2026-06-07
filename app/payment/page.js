@@ -54,7 +54,8 @@ const page = () => {
 
     router.push(`/QR?name=${encodeURIComponent(form.name)}`);
     } catch (error) {
-      console.log(error);
+      console.log(error);     
+      
       alert("Something went wrong");
     }
   };
