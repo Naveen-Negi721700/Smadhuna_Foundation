@@ -418,7 +418,7 @@ export default function Home() {
 
           {/* Card 1 */}
           <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg p-6 mb-6">
-            <div className="md:w-1/5 h-80 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
+            <div className="md:w-1/5 h-80  rounded-lg flex items-center justify-center text-gray-500">
               <img className="h-[37vh] md:h-[40vh] w-[30vh] object-cover " src="/books(s).jpeg" alt="water" />
             </div>
 
@@ -485,8 +485,8 @@ export default function Home() {
 
           {/* Card 2 */}
           <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg p-6">
-            <div className="md:w-1/5 h-80 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-              <img className="h-[37vh] md:h-[40vh] w-[30vh] object-cover" src="/water2(s).jpeg" alt="water" />
+            <div className="md:w-1/5 h-80  rounded-lg flex items-center justify-center text-gray-500">
+              <img className="h-[35vh] md:h-[40vh] w-[30vh] object-cover" src="/water2(s).jpeg" alt="water" />
             </div>
 
             <div className="md:w-2/3 md:pl-8 mt-4 md:mt-0 flex flex-col justify-between">

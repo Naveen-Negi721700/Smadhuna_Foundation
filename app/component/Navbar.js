@@ -57,7 +57,7 @@ const Navbar = () => {
 
 
             <Link
-              href="/get-involved"
+              href="/involved"
               className="text-base font-semibold text-gray-700 hover:text-emerald-700 transition"
             >
               Get Involved
@@ -163,7 +163,7 @@ const Navbar = () => {
        
 
         <Link
-          href="/get-involved"
+          href="/involved"
           onClick={() => setMenuOpen(false)}
           className="rounded-md px-3 py-3 text-base font-medium text-gray-700 hover:bg-emerald-50 hover:text-emerald-700"
         >
