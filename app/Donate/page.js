@@ -13,7 +13,7 @@ export default function SmadonaImpactSection() {
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/10"></div>
-        </div>
+        </div>        
       </section>
 
       {/* DONATION SECTION */}

@@ -16,7 +16,7 @@ const page = () => {
           alt="Smadona Foundation Rural Community Project"
         />
 
-
+          
 
       </div>
 
