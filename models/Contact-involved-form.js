@@ -10,7 +10,7 @@ const ContactInvolvedFormSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-});
+});    
 
 export default mongoose.models.ContactInvolvedForm ||
   mongoose.model("ContactInvolvedForm", ContactInvolvedFormSchema);

@@ -33,9 +33,9 @@ https://smadhuna-foundation.vercel.app
 
 ### Database
 - MongoDB Atlas
-- Mongoose
+- Mongoose  
 
 ### Deployment
-- Vercel
+- Vercel    
 
 

@@ -40,7 +40,7 @@ export default function Home() {
             <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300">
               EXPLORE OUR WORK
             </button>
-          </Link>
+          </Link>    
 
           <Link href="#footprint">
             <button className="px-6 py-3 text-base sm:text-lg md:text-xl w-full sm:w-auto rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300">
