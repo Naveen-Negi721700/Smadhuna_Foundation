@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 export default function Home() {
   return (
@@ -32,7 +31,9 @@ export default function Home() {
           maiores dicta nemo tempore ullam debitis veniam deserunt, culpa at
           velit sint aperiam quaerat aut nihil non assumenda libero dolorum.
           Repellendus.
+          
         </p>
+
 
         {/* Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
