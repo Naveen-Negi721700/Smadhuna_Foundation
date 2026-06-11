@@ -111,7 +111,7 @@ const Page = () => {
 
                 <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
               Learn More
-            </button>
+            </button>   
               </div>  
               
 
@@ -119,7 +119,7 @@ const Page = () => {
                 <img
                   src="https://images.unsplash.com/photo-1509391366360-2e959784a276"
                   alt="Solar panel installation"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover"   
                 />
               </div>
             </div>
