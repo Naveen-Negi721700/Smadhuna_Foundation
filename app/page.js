@@ -31,7 +31,7 @@ export default function Home() {
           maiores dicta nemo tempore ullam debitis veniam deserunt, culpa at
           velit sint aperiam quaerat aut nihil non assumenda libero dolorum.
           Repellendus.
-        </p>
+        </p>        
 
 
         {/* Buttons */}

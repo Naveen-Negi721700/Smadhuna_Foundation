@@ -113,7 +113,7 @@ const Page = () => {
               Learn More
             </button>   
               </div>  
-              
+                                  
 
               <div className="md:w-2/5 md:min-h-full">
                 <img
