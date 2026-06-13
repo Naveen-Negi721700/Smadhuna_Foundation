@@ -32,7 +32,7 @@ export default function Home() {
           velit sint aperiam quaerat aut nihil non assumenda libero dolorum.
           Repellendus.
         </p>        
-
+            
 
         {/* Buttons */}
         <div className="mt-8 flex flex-col sm:flex-row gap-4">
