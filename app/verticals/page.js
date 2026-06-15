@@ -114,7 +114,7 @@ const Page = () => {
             </button>   
               </div>  
                                   
-
+    
               <div className="md:w-2/5 md:min-h-full">
                 <img
                   src="https://images.unsplash.com/photo-1509391366360-2e959784a276"
