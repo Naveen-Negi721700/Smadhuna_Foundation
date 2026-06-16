@@ -107,7 +107,8 @@ const Page = () => {
                     Installing solar-powered systems to power homes, schools,
                     and health clinics.
                   </p>
-                </div>
+                </div> 
+                 
 
                 <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
               Learn More
