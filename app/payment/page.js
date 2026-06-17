@@ -15,10 +15,8 @@ const page = () => {
     donation_section: "",
     message: "",
   });
-     
-     
-   
-   
+      
+  
   const handleChange = (e) => {
     setForm({
       ...form,
