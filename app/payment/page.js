@@ -14,7 +14,7 @@ const page = () => {
     contact: "",
     donation_section: "",
     message: "",
-  });
+  });    
       
   
   const handleChange = (e) => {
