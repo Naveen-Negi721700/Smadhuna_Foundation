@@ -7,7 +7,8 @@ const page = () => {
   const name = searchParams.get("name");
   return (
     <>
-
+   
+   
       <div className='text-black'>
 
         <img
