@@ -179,9 +179,8 @@ const Navbar = () => {
             DONATE
           </button>
         </Link>
-
       </div>
-    </div>   
+    </div>    
   </>
 )}
     </nav>
