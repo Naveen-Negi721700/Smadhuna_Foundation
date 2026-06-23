@@ -8,7 +8,7 @@ const page = () => {
   return (
     <>
    
-   
+
       <div className='text-black'>
 
         <img

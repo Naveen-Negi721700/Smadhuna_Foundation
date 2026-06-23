@@ -15,7 +15,7 @@ export default function SmadonaImpactSection() {
           <div className="absolute inset-0 bg-black/10"></div>
         </div>        
       </section>
-
+        
       {/* DONATION SECTION */}
       <section className="w-full max-w-7xl mx-auto px-4 py-16 bg-[#FAF7F0] mt-12 rounded-3xl">
         <div className="text-center mb-12">
