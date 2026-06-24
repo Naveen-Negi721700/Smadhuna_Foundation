@@ -7,7 +7,6 @@ const page = () => {
   const name = searchParams.get("name");
   return (
     <>
-   
 
       <div className='text-black'>
 
@@ -16,11 +15,12 @@ const page = () => {
           src="/payment.jpeg"
           alt="Smadona Foundation Rural Community Project"
         />
-
+     
+    
           
 
       </div>
-
+      
       <div className="bg-white p-8 w-full mx-auto font-sans text-gray-800 ">
         <div className="flex flex-col justify-center items-center ">
           <h1 className="text-3xl md:text-4xl font-bold text-green-900 mb-8 uppercase tracking-wide">
