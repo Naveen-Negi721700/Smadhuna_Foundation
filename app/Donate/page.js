@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
- 
+
 export default function SmadonaImpactSection() {
   return (
     <div className="w-full bg-white font-sans antialiased">
@@ -13,9 +13,9 @@ export default function SmadonaImpactSection() {
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-black/10"></div>
-        </div>        
+        </div>
       </section>
-        
+
       {/* DONATION SECTION */}
       <section className="w-full max-w-7xl mx-auto px-4 py-16 bg-[#FAF7F0] mt-12 rounded-3xl">
         <div className="text-center mb-12">
@@ -51,12 +51,12 @@ export default function SmadonaImpactSection() {
                 (Any amount helps)
               </p>
 
-             
-                 <Link href={"/payment"}>
+
+              <Link href={"/payment"}>
                 <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
-          Donate
-            </button>
-            </Link>
+                  Donate
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -78,15 +78,15 @@ export default function SmadonaImpactSection() {
 
             <div>
               <p className="text-xs font-bold text-gray-800 mb-3">
-               (Any amount helps)
+                (Any amount helps)
               </p>
 
-                
-                 <Link href={"/payment"}>
+
+              <Link href={"/payment"}>
                 <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
-          Donate
-            </button>
-            </Link>
+                  Donate
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -108,15 +108,15 @@ export default function SmadonaImpactSection() {
 
             <div>
               <p className="text-xs font-bold text-gray-800 mb-3">
-               (Any amount helps)
+                (Any amount helps)
               </p>
 
-                
-                 <Link href={"/payment"}>
+
+              <Link href={"/payment"}>
                 <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
-          Donate
-            </button>
-            </Link>
+                  Donate
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -138,15 +138,15 @@ export default function SmadonaImpactSection() {
 
             <div>
               <p className="text-xs font-bold text-gray-800 mb-3">
-               (Any amount helps)
+                (Any amount helps)
               </p>
 
-                
-                 <Link href={"/payment"}>
+
+              <Link href={"/payment"}>
                 <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
-          Donate
-            </button>
-            </Link>
+                  Donate
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -172,17 +172,17 @@ export default function SmadonaImpactSection() {
                 (Any amount helps)
               </p>
 
-                
-                 <Link href={"/payment"}>
+
+              <Link href={"/payment"}>
                 <button className=" px-6 py-3 text-base sm:text-lg md:text-xl w-full rounded-3xl font-bold text-white bg-gradient-to-r from-[#0b3d26] to-[#2e8b57] hover:scale-105 duration-300 hover:text-xl hover:text-black">
-          Donate
-            </button>
-            </Link>
+                  Donate
+                </button>
+              </Link>
             </div>
           </div>
         </div>
 
-       
+
       </section>
     </div>
   );

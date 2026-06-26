@@ -119,7 +119,6 @@ const page = () => {
                       </p>
                     </div>
                   </div>
-
                   <div className="flex items-start gap-4">
                     <div className="text-3xl">🤝</div>
                     <div>
@@ -131,10 +130,7 @@ const page = () => {
                       </p>
                     </div>
                   </div>
-
                 </div>
-       
-       
                 <div className="grid grid-cols-3 gap-4 mt-10">
 
                   <div className="text-center">
