@@ -27,7 +27,8 @@ export default function SmadonaImpactSection() {
             Your donation provides sustainable, integrated solutions to
             empower rural communities. Choose a focus area below.
           </p>
-        </div>
+        </div> 
+        
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {/* Water Access */}
