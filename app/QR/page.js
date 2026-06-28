@@ -6,5 +6,5 @@ export default function Page() {
     <Suspense fallback={<div>Loading...</div>}>
       <QRContent />
     </Suspense>
-  );
+  );   
 }      

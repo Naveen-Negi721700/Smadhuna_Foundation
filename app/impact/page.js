@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
+    <div>     
         <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         
@@ -25,10 +25,8 @@ const page = () => {
           {/* Article Card 1 */}
           <div className="bg-white border border-gray-200 rounded-lg shadow-sm overflow-hidden flex flex-col">
             <div className="relative min-h-[65vh] bg-gray-100">
-              
-
+            
               <img  src="/page1(s).jpeg" alt="" />
-
 
             </div>
             <div className="p-6 flex-1 flex flex-col justify-between">
