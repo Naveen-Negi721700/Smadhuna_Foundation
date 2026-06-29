@@ -106,7 +106,7 @@ const page = () => {
                         Supporting impactful environmental projects.
                       </p>
                     </div>
-                  </div>
+                  </div>    
 
                   <div className="flex items-start gap-4">
                     <div className="text-3xl">📚</div>

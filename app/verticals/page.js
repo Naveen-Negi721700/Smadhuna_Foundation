@@ -123,7 +123,7 @@ const Page = () => {
           </div>
         </div>
       </section>
-    </>
+    </> 
   );
 };
 export default Page;
