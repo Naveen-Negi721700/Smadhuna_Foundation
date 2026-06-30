@@ -18,7 +18,8 @@ const page = () => {
             See how our water sustainability initiatives and global partnerships are making an impact around the world.
           </div>
         </div>
-
+     
+    
         {/* Newspaper Grid Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           
