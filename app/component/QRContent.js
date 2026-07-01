@@ -15,10 +15,6 @@ const page = () => {
           src="/payment.jpeg"
           alt="Smadona Foundation Rural Community Project"
         />
-     
-    
-          
-
       </div>
       
       <div className="bg-white p-8 w-full mx-auto font-sans text-gray-800 ">
